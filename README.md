@@ -1,2 +1,30 @@
 # mern-mini-project
 Created MERN Stack Project
+
+
+# Backend: Node.js with MongoDB
+
+Step 1:
+Run npm init
+
+Step 2:
+Create server.js and update package.json with "main": "server.js"
+
+Step 3:
+Install Express: npm install express
+
+Step 4:
+Create the server, add a port number, and start a listener to run the application continuously.
+Set the port to 4000 and run the command npm start. Now the application runs continuously on port 4000.
+
+Step 5:
+Add middleware to accept JSON: app.use(express.json())
+Create routes, add a POST API, and test it. Now it is working.
+
+Step 6:
+Configure the database: MongoDB URL → mongodb://localhost:27017
+Install Mongoose: npm install mongoose
+Create schema and model.
+
+Step 7:
+Create four APIs (POST, GET, UPDATE, DELETE) and connect them with MongoDB.

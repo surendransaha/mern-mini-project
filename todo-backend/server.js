@@ -1,11 +1,13 @@
 // import express package
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors')
 
 //get express instance
 const app = express();
 app.use(express.json())
 app.use(express.urlencoded())
+app.use(cors())
 
 //db connect
 mongoose.connect('mongodb://0.0.0.0:27017/mern-app')

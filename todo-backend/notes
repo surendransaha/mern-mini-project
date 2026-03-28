@@ -1,25 +1,26 @@
-Step: 1
- npm init
+Backend: Node.js with MongoDB
 
-Step: 2
- create server.js and updated to pakage.json file, main: server.js
+Step 1:
+Run npm init
 
-Step: 3
- install express, npm i express
+Step 2:
+Create server.js and update package.json with "main": "server.js"
 
-Step: 4
- convert server program, add port number and listerner to run contoniues our application.
- I set 4000 port and run comment npm start. now its this application contionusly runing in 4000 port
+Step 3:
+Install Express: npm install express
 
-Step: 5
- add middleware form accept json, app.use(express.json())
- create route, added post api and tested. now its woekinf
+Step 4:
+Create the server, add a port number, and start a listener to run the application continuously.
+Set the port to 4000 and run the command npm start. Now the application runs continuously on port 4000.
 
-Step: 6
- db configure: mongo DB : mongodb://localhost:27017
- npm i mongoose
- 
+Step 5:
+Add middleware to accept JSON: app.use(express.json())
+Create routes, add a POST API, and test it. Now it is working.
 
-Step: 7
+Step 6:
+Configure the database: MongoDB URL → mongodb://localhost:27017
+Install Mongoose: npm install mongoose
+Create schema and model.
 
-Step: 8
+Step 7:
+Create four APIs (POST, GET, UPDATE, DELETE) and connect them with MongoDB.

@@ -1,4 +1,4 @@
-# mern-mini-project
+# MERN Mini Project
 Created MERN Stack Project
 
 
@@ -28,3 +28,16 @@ Create schema and model.
 
 Step 7:
 Create four APIs (POST, GET, UPDATE, DELETE) and connect them with MongoDB.
+
+
+
+# Frontend: React JS with backend apis
+
+Step 1:
+Run npx create-react-app .
+
+Step 2:
+create TODO Components
+
+Step 3:
+intergrated all apis

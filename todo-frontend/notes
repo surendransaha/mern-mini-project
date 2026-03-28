@@ -1,0 +1,10 @@
+Frontend: React JS with backend apis
+
+Step 1:
+Run npx create-react-app .
+
+Step 2:
+create TODO Components
+
+Step 3:
+intergrated all apis

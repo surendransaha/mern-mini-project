@@ -1,6 +1,9 @@
 # MERN Mini Project
 Created MERN Stack Project
 
+<img width="1379" height="503" alt="image" src="https://github.com/user-attachments/assets/bf3c12f3-9af2-4e41-93f6-0fb7438b7dad" />
+
+
 
 # Backend: Node.js with MongoDB
 
